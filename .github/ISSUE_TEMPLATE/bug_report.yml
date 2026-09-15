@@ -1,0 +1,29 @@
+name: بلاغ خطأ
+description: ساعدنا في إعادة إنتاج مشكلة داخل التطبيق
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: وصف المشكلة
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: خطوات إعادة الإنتاج
+      placeholder: لا ترفق بيانات مالية حقيقية أو نسخة من قاعدة بياناتك.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: إصدار التطبيق ونظام التشغيل
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: صور أو سجلات منزوعة البيانات الحساسة
+      render: shell

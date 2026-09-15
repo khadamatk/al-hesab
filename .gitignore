@@ -1,0 +1,56 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+*.iml
+
+# Android
+android/.gradle/
+android/captures/
+android/local.properties
+android/key.properties
+key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/**/Pods/
+ios/**/*.xcworkspace
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+
+# IDE and logs
+.vscode/
+.idea/
+*.swp
+*.log
+symbols/
+*.symbols
+releases/
+wallet.png
+
+# OS and local tooling
+.DS_Store
+Thumbs.db
+.codex/
+.agents/
+
+# Keep the Gradle wrapper reproducible in public clones.
+!android/gradlew
+!android/gradlew.bat
+!android/gradle/wrapper/gradle-wrapper.jar
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3

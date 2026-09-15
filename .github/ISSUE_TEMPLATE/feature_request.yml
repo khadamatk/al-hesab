@@ -1,0 +1,21 @@
+name: اقتراح ميزة
+description: اقترح تحسينًا واضح المشكلة والقيمة
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: ما المشكلة التي تحلها الميزة؟
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: الحل المقترح
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: أثرها على الخصوصية أو الصلاحيات أو الاتصال
